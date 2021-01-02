@@ -1,0 +1,19 @@
+{
+  "name": "EP Blog",
+  "version": "0.0.1",
+  "description": "Industrial economic modelling and data",
+  "main": "index.js",
+  "authors": {
+    "name": "Evgeniy Pogrebnyak",
+    "email": "e.pogrebnyak@gmail.com"
+  },
+  "repository": "https://github.com/epogrebnyak/blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

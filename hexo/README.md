@@ -1,2 +1,2 @@
 # blog
-Data-rich economic models
+My economic modelling and data projects

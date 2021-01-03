@@ -3,11 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: cactus
 # theme: fluid
+theme: cactus
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/epogrebnyak/blog
+  branch: gh-pages
+  message: deploy site via hexo 
 
 # Site
 title: Отраслевой анализ и управление данными
@@ -42,8 +49,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
-root: /
+url: https://epogrebnyak.github.io/blog
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -124,7 +131,4 @@ include:
 exclude:
 ignore:
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+
